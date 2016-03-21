@@ -9,11 +9,13 @@
 
 3. Using the `pgAdmin` tool, create a database called `eth`.
 
-4. Add `C:\Program Files\PostgreSQL\9.5\bin` `C:\Program Files\PostgreSQL\9.5\lib` to the path.
+4. Add `C:\Program Files\PostgreSQL\9.5\bin` `C:\Program Files\PostgreSQL\9.5\lib` (or the equivalent thereof) to the path.
 
 5. Run `jsonview.reg` if you want to look at JSON in Internet Explorer.
 
 ## Installing
+
+To run, you might have to right-click and choose "Run in PowerShell".
 
 1. Unzip `strato.zip`
 2. Run `strato-init.ps1`
