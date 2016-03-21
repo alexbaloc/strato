@@ -1,4 +1,6 @@
 
+# Installing `Strato` on windows
+
 ## Prerequisites 
 
 1. Run the [Postgres](http://get.enterprisedb.com/postgresql/postgresql-9.5.1-1-windows-x64.exe) installer.
@@ -32,9 +34,9 @@ Open a powershell terminal and invoke the faucet:
 
 Open the [stats](http://localhost:3000/stats) and see if the block got processed.
 
-## How and what to build *Strato* on Windows (to be completed)
+# Building  *Strato* on Windows (to be completed)
 
-# Installing `Strato` on windows
+## Prerequisites 
 
 pacman -S base-devel git
 pacman -S mingw-w64-x86_64-toolchain
