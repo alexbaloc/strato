@@ -13,11 +13,24 @@
 
 5. Run `jsonview.reg` if you want to look at JSON in Internet Explorer.
 
-## Installing
+## Installing v1.0
 
 To run, you might have to right-click and choose "Run in PowerShell".
 
-1. Unzip `strato.zip`
+1. Unzip `strato-v1.0_win64.zip`
+2. Run `strato-init.ps1`
+3. Open a powershell for each process and run
+- `ethereum-vm.ps1`
+- `strato-api.ps1`
+
+(`strato.ps1` should be able to do this, but I can't get the processes to actually respond in the background).
+
+
+## Installing v1.1
+
+To run, you might have to right-click and choose "Run in PowerShell".
+
+1. Unzip `strato-v1.1_win64.zip`
 2. Run `strato-init.ps1`
 3. Open a powershell for each process and run
 - `strato-adit.ps1`
@@ -26,6 +39,8 @@ To run, you might have to right-click and choose "Run in PowerShell".
 - `strato-api.ps1`
 
 (`strato.ps1` should be able to do this, but I can't get the processes to actually respond in the background).
+
+# Running strato
 
 Look at the [api](http://localhost:3000)
 
