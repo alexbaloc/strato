@@ -48,7 +48,10 @@ Open a powershell terminal and invoke the faucet:
 - `$postParams = @{address='123'}`
 
 - `Invoke-WebRequest -Uri http://localhost:3000/eth/v1.0/faucet -Method POST -Body $postParams`
+ 
+
 or if `v1.1`:
+
 - `Invoke-WebRequest -Uri http://localhost:3000/eth/v1.1/faucet -Method POST -Body $postParams`
 
 Open the [stats](http://localhost:3000/stats) and see if the block got processed.
